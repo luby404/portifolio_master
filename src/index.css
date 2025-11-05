@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+:root {
+  --primaria: #0000ff;
+  --bg: #030413;
+  --text: #FFF;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100dvh;
+
+  overflow: auto;
+
+  background-color: var(--bg);
+  color: var(--text);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  font-size: .8rem;
+  
+
+  padding-bottom: 6rem;
+  scroll-behavior: smooth;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.row2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  justify-content: center;
+  
+}
+
+.button {
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  
+  border: 2px solid var(--primaria);
+  color: var(--primaria);
+
+  transition: all .3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+.button i {
+  font-size: 1rem;
+}
+
+
+.button2 {
+  color: var(--text);
+  background-color: var(--primaria);
+  
+}
+
+.button:hover {
+  background-color: #FFF;
+  color: #000;
+  border: 2px solid transparent;
+}

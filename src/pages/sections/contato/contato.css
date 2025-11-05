@@ -1,0 +1,39 @@
+.contato {
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.content_contato {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    padding: 20px;
+}
+
+.grid_links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+
+    margin: auto;
+}
+
+
+@media (max-width: 700px) {
+    .grid_links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contato p {
+        text-align: center;
+    }
+}

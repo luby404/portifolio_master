@@ -1,0 +1,27 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+    flex: .7;
+
+    text-align: center;
+
+    min-height: 450px;
+}
+
+.name_user {
+    font-size: 3rem;
+}
+
+.text-app {
+    font-size: .9rem;
+}
+
+.text-color {
+    font-weight: bold;
+    font-size: .9rem;
+    color: var(--primaria);
+}

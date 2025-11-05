@@ -1,0 +1,25 @@
+.projetos {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.grid_projects {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 20px;
+    padding: 20px;
+
+}
+
+@media (max-width: 680px) {
+    .grid_projects {
+        grid-template-columns: 1fr;
+    }
+}
