@@ -1,22 +1,23 @@
 import "./cardprojeto.css"
 
-export default function CardProjeto( {img, descricao, github, link} ){
+export default function CardProjeto( {img, title, descricao, github, link} ){
     return (
         <div className="cardprojeto_content">
-            <img src="" alt="" />
+            <img src={img} alt="" />
 
+            <h3>{title}</h3>  
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus blanditiis sed neque veritatis repellendus odio minima earum a nemo sapiente animi eius ad hic aliquid unde dolorem quam, quasi numquam.
+                {descricao}
             </p>
             <div className="row2">
 
-                <div className="button">
+                <a href={github} target="_blank" className="button">
                     <span>GitHub</span>
-                </div>
+                </a>
 
-                <div className="button button2">
+                <a href={link} target="_blank" className="button button2">
                     <span>Ver Projeto</span>
-                </div>
+                </a>
                 
 
             </div>

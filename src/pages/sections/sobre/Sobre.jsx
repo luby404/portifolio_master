@@ -41,7 +41,7 @@ export default function Sobre() {
                     </div>
 
 
-                    <p>
+                    <p className="text_contato">
                         Passei os últimos meses trabalhando remotamente,
                         com HTML, CSS, JavaScript e Python, desenvolvendo desde landing pages aplicativos web até APIs.
                         Minha experiência como dev chefe em uma empresa de Finças me ajudou

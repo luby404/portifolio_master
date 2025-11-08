@@ -4,8 +4,8 @@ export default function Contato() {
     return (
         <div className="contato" id="contato">
             <h1>Contato</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit recusandae soluta quidem aliquam unde fugit quo maiores numquam temporibus omnis!
+            <p className="text_contato">
+                Se você deseja entrar em contato comigo, seja para discutir oportunidades de trabalho, colaborar em projetos interessantes ou simplesmente para dizer olá, fique à vontade para me enviar uma mensagem através dos links abaixo. Estou sempre aberto a novas conexões e ansioso para ouvir de você!
             </p>
 
 
