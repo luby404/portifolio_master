@@ -1,5 +1,6 @@
 import "./sobre.css"
 
+import ricardo from "../../../assets/ricardo2.png"
 
 export default function Sobre() {
     return (
@@ -13,7 +14,7 @@ export default function Sobre() {
 
                 <div className="banner">
 
-                    <img src="" alt="" />
+                    <img src={ricardo} alt="" />
 
                 </div>
                 <div className="infos column">

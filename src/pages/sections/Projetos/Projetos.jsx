@@ -11,13 +11,8 @@ export default function Projetos(){
                 <CardProjeto/>
                 <CardProjeto/>
                 <CardProjeto/>
-                <CardProjeto/>
-                <CardProjeto/>
-                <CardProjeto/>
-                <CardProjeto/>
+
                 
-
-
             </div>
         </div>
     )

@@ -12,23 +12,23 @@ export default function Contato() {
             <div className="content_contato">
 
                 <div className="grid_links">
-                    <div className="button button2">
+                    <a href="tel:+244931617941" className="button button2">
                         <i className="ri-phone-fill"></i>
                         <span>Ligar Agora</span>
-                    </div>
-                    <div className="button button2">
+                    </a>
+                    <a href="https://wa.me/244931617941" target="_blank" className="button button2">
                         <i className="ri-whatsapp-fill"></i>
                         <span>Enviar Messagem</span>
-                    </div>
+                    </a>
                     
-                    <div className="button button2">
+                    <a href="https://github.com/luby404" target="_blank" className="button button2">
                         <i className="ri-github-fill"></i>
                         <span>GitHub</span>
-                    </div>
-                    <div className="button button2">
+                    </a>
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ricardocayoca2@gmail.com" target="_" className="button button2">
                         <i className="ri-mail-fill"></i>
                         <span>Email</span>
-                    </div>
+                    </a>
                 </div>
 
             </div>
