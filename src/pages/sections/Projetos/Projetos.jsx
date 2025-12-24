@@ -13,17 +13,17 @@ export default function Projetos(){
         },
         {
             img: "https://magis5.com.br/wp-content/uploads/2024/11/capa-vendas-e-controle-de-estoque-800x400.webp",
-            title: "Sistema de Gestão",
+            title: "SGVS-IyaSoft",
             descricao: "Sistema de gestão de vendas e estoque para pequenas empresas, focado em usabilidade e eficiência na administração de produtos, fornecedores e operações de venda. Usuario: ricardo Senha:admin",
             github: "https://github.com/luby404/SGV-sistema-gest-o-venda",
-            link: "https://sgv-sistema-gest-o-venda.onrender.com/"
+            link: "https://sgve.onrender.com/"
         },
         {
-            img: "https://d1rv23qj5kas56.cloudfront.net/img/portal-2015/lp/lp-personal-websites-article-01-en.png",
-            title: "Blog Pessoal Responsivo",
-            descricao: "Frontend de um blog pessoal com design responsivo e funcionalidades interativas, permitindo aos usuários ler, comentar e compartilhar artigos facilmente.",
+            img: "https://hbapos.com/wp-content/uploads/2025/02/Restaurant-cashier-is-using-the-HBA-S100-Pos-system-to-collect-cash.jpg",
+            title: "SGR",
+            descricao: "Um sistema de gestão de restaurante com controle de estque vendas e comandas, Uma solução simples para gerenciar o seu restaurante.",
             github: "",
-            link: ""
+            link: "https://sgrestaurante.onrender.com/"
         },
         {
             img: "https://storage.googleapis.com/clean-finder-353810/$hqd9BdF6lpJaFYRAa7SeLzXJg8BZIOMDN4Q2YgzGiQQ1m3Xpr3RNOT",
