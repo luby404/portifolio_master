@@ -31,6 +31,13 @@ export default function Projetos(){
             descricao: "Um Framework python fullstack para desenvolvimento rápido de aplicações web, com foco em escalabilidade, segurança e facilidade de uso. com UI intuitiva raetiva e componentes reutilizáveis",
             github: "",
             link: ""
+        },
+        {
+            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFp7DCicztwjueNHtfLtqBnA8jBMiok1wOtw&s",
+            title: "Tchova",
+            descricao: "O Tchova é uma aplicação web criada para simplificar o controle de caixa diário de pequenos negócios. Sabemos que muitos empreendedores ainda controlam entradas e saídas no caderno, no WhatsApp ou apenas de cabeça. Isso gera erros, perda de dinheiro e falta de clareza sobre o lucro real.",
+            github: "",
+            link: "https://thova.onrender.com/"
         }
     ]
 
@@ -49,9 +56,6 @@ export default function Projetos(){
                         link={projeto.link}
                     />
                 ))}
-
-                
-
 
             </div>
         </div>

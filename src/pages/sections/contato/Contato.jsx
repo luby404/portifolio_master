@@ -12,10 +12,6 @@ export default function Contato() {
             <div className="content_contato">
 
                 <div className="grid_links">
-                    <a href="tel:+244931617941" className="button button2">
-                        <i className="ri-phone-fill"></i>
-                        <span>Ligar Agora</span>
-                    </a>
                     <a href="https://wa.me/244931617941" target="_blank" className="button button2">
                         <i className="ri-whatsapp-fill"></i>
                         <span>Enviar Messagem</span>
