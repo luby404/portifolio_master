@@ -1,15 +1,21 @@
+import { ScrollReveal } from "../../components/ScrollReveal"
 import "./home.css"
 
 export default function Home() {
     return (
+        <ScrollReveal>
+
         <div className="home" id="home">
-            <div className="column">
+            <div className="column infos_hero">
 
-                <span className="text-app">Olá, eu sou</span>
+                <span className="text-app text_float">Olá, eu sou</span>
                 <strong className="name_user">Ricardo Cayoca</strong>
-                <span className="text-app text-color">Desenvolvedor Full-stack</span>
+                <span className="text-app text-color">Desenvolvedor Full-Stack, Especializado na construção de aplicações escaláveis desde a sua concepção</span>
+                
 
-                <div className="row2">
+                <ScrollReveal>
+
+                <div className="row2 center">
 
                     <a href="#projetos" className="button">
                         <span>Ver Projetos</span>
@@ -19,8 +25,10 @@ export default function Home() {
                     </a>
 
                 </div>
+                </ScrollReveal>
 
             </div>
         </div>
+        </ScrollReveal>
     )
 }

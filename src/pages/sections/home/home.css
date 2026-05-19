@@ -1,19 +1,31 @@
 .home {
     display: flex;
+
+    align-items: start;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     gap: 10px;
 
     flex: .7;
 
-    text-align: center;
+    padding: 4rem;
 
-    min-height: 450px;
+
+    min-height: 100dvh;
+}
+
+.infos_hero {
+    width: 100%;
+    max-width: 1000px;
+        margin: 0 auto;
+    
+    display: flex;
+    justify-content: start;
+    align-items: start;
 }
 
 .name_user {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 .text-app {

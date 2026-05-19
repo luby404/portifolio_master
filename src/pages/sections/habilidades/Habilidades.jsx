@@ -13,24 +13,38 @@ import github from "../../../assets/github.png"
 import sql from "../../../assets/sql.png"
 import flask from "../../../assets/flask.png"
 
-export default function Habilidades(){
+export default function Habilidades() {
 
 
 
     return (
         <div className="habilidades" id="habilidade">
 
-            <h2>Habilidades</h2>
             <div className="grid_view">
 
-                <CardHabilidade img={python} name="Python" />
-                <CardHabilidade img={html} name="HTML" />
-                <CardHabilidade img={css} name="CSS" />
-                <CardHabilidade img={js} name="JavaScript" />
-                <CardHabilidade img={react} name="REACT" />
-                <CardHabilidade img={flask} name="FLASK" />
-                <CardHabilidade img={sql} name="PostgreSQL" />
-                <CardHabilidade img={github} name="Git/GitHub" /> 
+                <div className="animation">
+                    <CardHabilidade img={python} name="Python" />
+                    <CardHabilidade img={html} name="HTML" />
+                    <CardHabilidade img={css} name="CSS" />
+                    <CardHabilidade img={js} name="JavaScript" />
+                    <CardHabilidade img={react} name="REACT" />
+                    <CardHabilidade img={flask} name="FLASK" />
+                    <CardHabilidade img={sql} name="PostgreSQL" />
+                    <CardHabilidade img={github} name="Git/GitHub" />
+                </div>
+
+                <div className="animation">
+                    <CardHabilidade img={python} name="Python" />
+                    <CardHabilidade img={html} name="HTML" />
+                    <CardHabilidade img={css} name="CSS" />
+                    <CardHabilidade img={js} name="JavaScript" />
+                    <CardHabilidade img={react} name="REACT" />
+                    <CardHabilidade img={flask} name="FLASK" />
+                    <CardHabilidade img={sql} name="PostgreSQL" />
+                    <CardHabilidade img={github} name="Git/GitHub" />
+                </div>
+
+                
 
 
             </div>

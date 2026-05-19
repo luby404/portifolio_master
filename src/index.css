@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
+
 }
-
-
 *::-webkit-scrollbar {
   width: 0;
 }
 
 :root {
-  --primaria: #0000ff;
-  --bg: #030413;
+  --primaria: #25a88c;
+  --bg: #222227;
   --text: #FFF;
 }
 
@@ -58,8 +61,11 @@
   align-items: center;
   gap: 10px;
 
-  justify-content: center;
+  flex-wrap: wrap;
   
+}
+.row2.center {
+  justify-content: center;
 }
 
 .button {
@@ -95,4 +101,25 @@
   background-color: #FFF;
   color: #000;
   border: 2px solid transparent;
+}
+
+.text_float {
+  box-shadow: 0 0 10px -2px var(--primaria);
+  padding: 10px;
+  min-width: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  border-radius: 20px;
+  color: var(--primaria);
+
+  transition: all .3s;
+}
+
+.text_float:hover {
+  background-color: var(--primaria);
+  color: var(--text);
 }

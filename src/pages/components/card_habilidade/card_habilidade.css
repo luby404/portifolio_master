@@ -1,14 +1,18 @@
 .card_habilidade {
-    background: #2226ff3a;
     backdrop-filter: blur(16px);
 
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
 
-    padding: 20px;
     border-radius: 10px;
     transition: all .3s ease;
+    padding: 10px;
+    min-width: 130px;
+    
+
+    
 
 }
 
@@ -18,5 +22,6 @@
 }
 
 .card_habilidade img {
-    width: 40px;
+    width: 20px;
 }
+

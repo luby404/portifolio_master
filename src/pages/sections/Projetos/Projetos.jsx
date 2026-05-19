@@ -5,13 +5,6 @@ export default function Projetos(){
 
     const projetosData = [
         {
-            img: "https://praedium.com.br/wp-content/uploads/exemplo-landing-page-tradicional.png",
-            title: "Leading Page Imobiliária",
-            descricao: "Sistema de Gestão Imobiliária para pequenas e médias empresas. Focado em usabilidade e eficiência na administração de imóveis, proprietários, clientes e processos de venda e arrendamento.",
-            github: "",
-            link: ""
-        },
-        {
             img: "https://magis5.com.br/wp-content/uploads/2024/11/capa-vendas-e-controle-de-estoque-800x400.webp",
             title: "SGVS-IyaSoft",
             descricao: "Sistema de gestão de vendas e estoque para pequenas empresas, focado em usabilidade e eficiência na administração de produtos, fornecedores e operações de venda. Usuario: ricardo Senha:admin",
@@ -43,7 +36,7 @@ export default function Projetos(){
 
     return (
         <div className="projetos" id="projetos">
-            <h1>projetos</h1>
+            <span className="text_float">projetos</span>
             <div className="grid_projects">
 
                 {projetosData.map((projeto, index) => (
