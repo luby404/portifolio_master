@@ -13,10 +13,6 @@ export default function Header() {
                     <i className="ri-user-line"></i>
                     <span>Sobre</span>
                 </a>
-                <a href="#habilidade" className="iten_menu">
-                    <i className="ri-book-line"></i>
-                    <span>Habilidades</span>
-                </a>
                 <a href="#projetos" className="iten_menu">
                     <i className="ri-function-line"></i>
                     <span>Projetos</span>
@@ -25,6 +21,7 @@ export default function Header() {
                     <i className="ri-message-line"></i>
                     <span>Contato</span>
                 </a>
+                
             </div>
         </header>
     )

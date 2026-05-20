@@ -5,6 +5,17 @@
     align-items: center;
     flex-direction: column;
     gap: 10px;
+
+    
+}
+
+.content_contator {
+    background-color: var(--primaria);
+    padding: 1rem;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1090px;
+
 }
 
 .text_contato {

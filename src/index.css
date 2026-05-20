@@ -97,6 +97,13 @@
   
 }
 
+.button3 {
+  color: var(--text);
+  background-color: var(--bg);
+  
+}
+
+
 .button:hover {
   background-color: #FFF;
   color: #000;

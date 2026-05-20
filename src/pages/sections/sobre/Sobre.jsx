@@ -70,9 +70,9 @@ export default function Sobre() {
 
                             <div className="row2">
                                 {
-                                    stacks_list.map((el) => {
+                                    stacks_list.map((el, index) => {
                                         return (
-                                            <span className="text_float">{el}</span>
+                                            <span key={index} className="text_float">{el}</span>
                                         )
                                     })
                                 }

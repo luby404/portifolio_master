@@ -16,6 +16,15 @@ header#header_float {
 
 }
 
+@media (max-width:700px) {
+    header#header_float {
+
+        top: auto;
+        bottom: 20px;
+    }
+}
+
+
 .header_content {
     display: flex;
     align-items: center;
@@ -53,12 +62,12 @@ header#header_float {
     font-size: .9rem;
 }
 
-.header_content .iten_menu  span {
+.header_content .iten_menu span {
     text-wrap: nowrap;
 }
 
-.header_content .iten_menu.ative, .header_content .iten_menu:hover {
+.header_content .iten_menu.ative,
+.header_content .iten_menu:hover {
     background-color: var(--primaria);
     width: auto;
 }
-
