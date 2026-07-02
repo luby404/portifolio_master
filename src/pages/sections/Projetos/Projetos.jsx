@@ -7,6 +7,7 @@ import propinangola from "../../../assets/projeto/propinangola.png"
 import gestao_pedidos from "../../../assets/projeto/gestao_pedidos.png"
 import cardapio from "../../../assets/projeto/saas_cardapio.png"
 import sgv from "../../../assets/projeto/sgv.png"
+import webevent from "../../../assets/projeto/webevent.png"
 
 export default function Projetos() {
 
@@ -18,7 +19,15 @@ export default function Projetos() {
             github: "",
             link: "https://propinangola.org/",
             stacks: ["Python", "Html", "Css", "Redis", "JavaScript", "Flask"]
-        },
+      },
+      {
+        img: webevent,
+        title: "Webhost",
+        descricao: "O WebEvents é uma plataforma desenvolvida para facilitar o teste, monitoramento e validação de webhooks. Receba eventos em tempo real, visualize seus dados e acelere o desenvolvimento das integrações da sua aplicação. ",
+        github: "",
+        link: "https://webevent.pythonanywhere.com/",
+        stacks: ["Python","Flask", "HTML"]
+      },
         {
             img: sgv,
             title: "SGVS-IyaSoft",
@@ -50,7 +59,8 @@ export default function Projetos() {
             github: "",
             link: "https://thova.onrender.com/",
             stacks: ["Python", "React", "FastApi", "Flask"]
-        }
+      },
+
     ]
     const num = projetosData.length
     var [index, setIndex] = useState(0)
