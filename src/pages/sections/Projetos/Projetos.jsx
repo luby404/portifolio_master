@@ -3,33 +3,31 @@ import CardProjeto from "../../components/card_projeto/CardProjeto"
 import { useEffect, useState } from "react"
 
 
-import propinangola from "../../../assets/projeto/propinangola.png"
-import gestao_pedidos from "../../../assets/projeto/gestao_pedidos.png"
-import cardapio from "../../../assets/projeto/saas_cardapio.png"
-import sgv from "../../../assets/projeto/sgv.png"
-import webevent from "../../../assets/projeto/webevent.png"
+
 
 export default function Projetos() {
 
+    let img = "o"
+
     const projetosData = [
         {
-            img: propinangola,
+            img: "propinangola.png",
             title: "PropinaAngola",
             descricao: "O nosso compromisso é acompanhar o estudante ao longo de toda a sua jornada académica, promovendo iniciativas que apoiam a formação, o desenvolvimento pessoal, o bem-estar e a conclusão do curso. Atuamos em parceria com universidades, instituições, empresas e sociedade civil, criando soluções que reforçam a inclusão, a cidadania e o futuro do ensino superior no país.",
             github: "",
             link: "https://propinangola.org/",
             stacks: ["Python", "Html", "Css", "Redis", "JavaScript", "Flask"]
-      },
-      {
-        img: webevent,
-        title: "Webhost",
-        descricao: "O WebEvents é uma plataforma desenvolvida para facilitar o teste, monitoramento e validação de webhooks. Receba eventos em tempo real, visualize seus dados e acelere o desenvolvimento das integrações da sua aplicação. ",
-        github: "",
-        link: "https://webevent.pythonanywhere.com/",
-        stacks: ["Python","Flask", "HTML"]
-      },
+        },
         {
-            img: sgv,
+            img: "webevent.png",
+            title: "WebEvent",
+            descricao: "O WebEvents é uma plataforma desenvolvida para facilitar o teste, monitoramento e validação de webhooks. Receba eventos em tempo real, visualize seus dados e acelere o desenvolvimento das integrações da sua aplicação. ",
+            github: "",
+            link: "https://webevent.pythonanywhere.com/",
+            stacks: ["Python", "Flask", "HTML"]
+        },
+        {
+            img: "sgv.png",
             title: "SGVS-IyaSoft",
             descricao: "Sistema de gestão de vendas e estoque para pequenas empresas, focado em usabilidade e eficiência na administração de produtos, fornecedores e operações de venda. Usuario: ricardo Senha:admin",
             github: "https://github.com/luby404/SGV-sistema-gest-o-venda",
@@ -37,7 +35,7 @@ export default function Projetos() {
             stacks: ["Python", "React", "FastApi", "Flask"]
         },
         {
-            img: gestao_pedidos,
+            img: "gestao_pedidos.png",
             title: "SGP pedidos",
             descricao: "Um sistema focado em gestão de pedidos, mesas, estoque e vendas com relatorios personalizados. O sistema oferece um cardapio interativos onde os clientes podem selecionar seus produtos e enviar para o bolcão sem ficar chamando o garson toda hora evitando erros e deixando o aentimento mais eficiente.",
             github: "",
@@ -45,7 +43,7 @@ export default function Projetos() {
             stacks: ["Python", "Flask", "JavaScript", "Html", "Css"]
         },
         {
-            img: cardapio,
+            img: "saas_cardapio.png",
             title: "Carddapio Digital",
             descricao: "Restaurantes perdem dinhero imprimindo novos cardapio sempre que a uma nova atualização nos preços dos produtos ou por outro motivo. por essa rasão desenvolvi uma Saas focado exatamente nessa problema, um cardapio inteligete onde o cliente so precisa scanear um codigo Qr Code e tera acesso ao cardapio sempre atualizado. ",
             github: "",
@@ -53,13 +51,13 @@ export default function Projetos() {
             stacks: ["Python", "React", "FastApi", "Flask"]
         },
         {
-            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFp7DCicztwjueNHtfLtqBnA8jBMiok1wOtw&s",
+            img: "tchova_img.png",
             title: "Tchova",
             descricao: "O Tchova é uma aplicação web criada para simplificar o controle de caixa diário de pequenos negócios. Sabemos que muitos empreendedores ainda controlam entradas e saídas no caderno, no WhatsApp ou apenas de cabeça. Isso gera erros, perda de dinheiro e falta de clareza sobre o lucro real.",
             github: "",
-            link: "https://thova.onrender.com/",
-            stacks: ["Python", "React", "FastApi", "Flask"]
-      },
+            link: "https://tchova.pythonanywhere.com/",
+            stacks: ["Python",   "Flask", "Sql", "HTML", "CSS", "JavaScript"]
+        },
 
     ]
     const num = projetosData.length
@@ -104,7 +102,7 @@ export default function Projetos() {
 
                 <div className="projetos_view">
 
-                    <img src={projeto.img} alt="" />
+                    <img src={`/img/${projeto.img}`} alt="" />
 
                 </div>
 
