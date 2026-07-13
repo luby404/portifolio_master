@@ -12,6 +12,8 @@ import html from "../../../assets/html.png"
 import github from "../../../assets/github.png"
 import sql from "../../../assets/sql.png"
 import flask from "../../../assets/flask.png"
+import djngo from "../../../assets/Django-Logo.png"
+import fastapi from "../../../assets/FastAPI_logo.svg.webp"
 
 export default function Habilidades() {
 
@@ -22,7 +24,9 @@ export default function Habilidades() {
 
             <div className="grid_view">
 
-                <div className="animation">
+                {
+                    [1,2].map(el=>{
+                        return <div className="animation">
                     <CardHabilidade img={python} name="Python" />
                     <CardHabilidade img={html} name="HTML" />
                     <CardHabilidade img={css} name="CSS" />
@@ -31,18 +35,11 @@ export default function Habilidades() {
                     <CardHabilidade img={flask} name="FLASK" />
                     <CardHabilidade img={sql} name="PostgreSQL" />
                     <CardHabilidade img={github} name="Git/GitHub" />
+                    <CardHabilidade img={djngo} name="Django" />
+                    <CardHabilidade img={fastapi} name="FastApi" />
                 </div>
-
-                <div className="animation">
-                    <CardHabilidade img={python} name="Python" />
-                    <CardHabilidade img={html} name="HTML" />
-                    <CardHabilidade img={css} name="CSS" />
-                    <CardHabilidade img={js} name="JavaScript" />
-                    <CardHabilidade img={react} name="REACT" />
-                    <CardHabilidade img={flask} name="FLASK" />
-                    <CardHabilidade img={sql} name="PostgreSQL" />
-                    <CardHabilidade img={github} name="Git/GitHub" />
-                </div>
+                    })
+                }
 
                 
 
