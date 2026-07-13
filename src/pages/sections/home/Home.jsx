@@ -10,7 +10,10 @@ export default function Home() {
 
                 <span className="text-app text_float">Olá, eu sou</span>
                 <strong className="name_user">Ricardo Cayoca</strong>
-                <span className="text-app text-color">Desenvolvedor Full-Stack, Especializado na construção de aplicações escaláveis desde a sua concepção</span>
+                <span className="text-app text-color">
+                    Desenvolvedor Full-Stack, Especializado na construção de aplicações escaláveis desde a sua concepção.
+                    Construo sistemas digitais que ajudam empresas a automatizar processos e melhorar operações.
+                </span>
                 
 
                 <ScrollReveal>
