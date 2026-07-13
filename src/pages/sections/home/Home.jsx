@@ -12,7 +12,8 @@ export default function Home() {
                 <strong className="name_user">Ricardo Cayoca</strong>
                 <span className="text-app text-color">
                     Desenvolvedor Full-Stack, Especializado na construção de aplicações escaláveis desde a sua concepção.
-                    Construo sistemas digitais que ajudam empresas a automatizar processos e melhorar operações.
+                    Construo sistemas digitais que ajudam empresas a automatizar processos e melhorar operações. 
+                    
                 </span>
                 
 
