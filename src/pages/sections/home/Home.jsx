@@ -1,6 +1,8 @@
 import { ScrollReveal } from "../../components/ScrollReveal"
 import "./home.css"
 
+import develop_img from "../../../assets/develop_header.svg"
+
 export default function Home() {
     return (
         <ScrollReveal>
@@ -31,6 +33,9 @@ export default function Home() {
                 </div>
                 </ScrollReveal>
 
+            </div>
+            <div className="banner_hero">
+                <img src={develop_img} alt="" />
             </div>
         </div>
         </ScrollReveal>
